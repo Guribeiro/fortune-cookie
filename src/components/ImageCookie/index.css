@@ -1,0 +1,11 @@
+.container-img {
+    margin-top: 50px;
+    width: 100%;
+}
+
+.container-img img {
+    -webkit-box-shadow: 7px 6px 35px -14px rgba(99, 99, 99, 1);
+    -moz-box-shadow: 7px 6px 35px -14px rgba(99, 99, 99, 1);
+    box-shadow: 7px 6px 35px -14px rgba(99, 99, 99, 1);
+    height: 400px;
+}

@@ -1,0 +1,10 @@
+.container-phrase{
+    height: 180px;
+    width: 220px;
+    border-radius: 50px;
+}
+.container-phrase h3{
+    font-size: 14px;
+    font-weight: 900;
+    
+}

@@ -5,8 +5,11 @@ import './App.css';
 
 
 import ImageCookie from './components/ImageCookie';
-import Button from './components/Button';
 import Phrase from './components/Phrase';
+import Button from './components/Button';
+
+import Header from './components/Header';
+
 
 import cookieImage from './assets/biscoito.png';
 
@@ -50,28 +53,35 @@ class App extends Component {
      * 
      */
     let random = Math.floor(Math.random() * this.phrases.length);
-    state.initialPhrase =  ` "${this.phrases[random]}"`
+    state.initialPhrase = ` "${this.phrases[random]}"`
     this.setState(state)
   }
 
   render() {
     return (
-      <div>
-        <ImageCookie
-          img={cookieImage}
+      <div className='App'>
+        <div className="main">
 
-        />
-        <Button
-          name='Abrir Biscoito'
-          changeMessage={this.changeMessage}
-        />
-        
-        <h3>{this.state.initialPhrase}</h3>
-    
+          <ImageCookie
+            img={cookieImage}
+
+          />
+          <Button
+            name='Abrir Biscoito'
+            changeMessage={this.changeMessage}
+          />
+          <div className='container-phrase'>
+            <h3>{this.state.initialPhrase}</h3>
+          </div>
+
+          {/*}
         <Phrase
-          phrase={this.state.initialPhrase}
-
+        phrase={this.state.initialPhrase}
         />
+      {*/}
+
+        </div>
+        <Header />
       </div>
     );
   }

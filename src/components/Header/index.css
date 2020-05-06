@@ -1,0 +1,59 @@
+header {
+    width: 100%;
+    background: #2d3436;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .social-links {
+    display: block;
+    width: 100%;
+    padding: 20px;
+}
+
+header .links {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+
+header a {
+    margin: 0 auto;
+    text-decoration: none;
+    text-align: center;
+    width: 10%;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+header a:hover .fa-icon-twitter {
+    color: #1DA1F2;
+}
+
+header a:hover .fa-icon-linkedin {
+    color: #2867B2;
+}
+
+header a:hover .fa-icon-facebook{
+    color: #3b5998 ;
+}
+
+header a:hover .fa-icon-instagram{
+    color: #C13584;
+}
+
+header a:hover .fa-icon-twitch{
+    color: #6441A4;
+}
+
+header a:hover .fa-icon-github{
+    color: #211F1F;
+}
+header a strong {
+    font-size: 16px;
+    padding: 5px;
+}

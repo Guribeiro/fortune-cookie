@@ -1,7 +1,18 @@
-div{
+div {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
+}
+
+h3 {
+  font-style: italic;
+  margin-top: 30px;
+  font-size: 22px;
+  color: #f0932b;
+  font-weight: 900;
+  -webkit-box-shadow: 7px 6px 35px -14px rgba(99, 99, 99, 1);
+  -moz-box-shadow: 7px 6px 35px -14px rgba(99, 99, 99, 1);
+  box-shadow: 7px 6px 35px -14px rgba(99, 99, 99, 1);
+
 }

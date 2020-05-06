@@ -10,9 +10,6 @@ class Phrase extends Component {
         }
 
     }
-
-
-
     render() {
         return (
             <div className='container-phrase'>

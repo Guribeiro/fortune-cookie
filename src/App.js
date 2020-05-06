@@ -32,7 +32,7 @@ class App extends Component {
       'Mesmo que já tenhas feito uma longa caminhada, há sempre um novo caminho a fazer'
     ];
 
-    
+
     this.changeMessage = this.changeMessage.bind(this);
 
   }
@@ -50,9 +50,7 @@ class App extends Component {
      * 
      */
     let random = Math.floor(Math.random() * this.phrases.length);
-    state.initialPhrase = this.phrases[random]
-    alert(state.initialPhrase)
-
+    state.initialPhrase =  ` "${this.phrases[random]}"`
     this.setState(state)
   }
 
@@ -67,6 +65,9 @@ class App extends Component {
           name='Abrir Biscoito'
           changeMessage={this.changeMessage}
         />
+        
+        <h3>{this.state.initialPhrase}</h3>
+    
         <Phrase
           phrase={this.state.initialPhrase}
 

@@ -15,7 +15,7 @@ You will also see any lint errors in the console.
 
 <p>
     <a href="https://en.wikipedia.org/wiki/Fortune_cookie">
-        <img src="./src/assets/Readme/fortune-cookie.PNG" alt="project logo" >
+        <img src="./src/assets/Readme/cookiegif.gif" alt="project logo" >
     </a>
     <h3>Abra e receba uma mensagem</h3>
 </p>
